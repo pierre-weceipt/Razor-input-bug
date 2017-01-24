@@ -27,6 +27,11 @@ namespace RazorInputBugSample.Controllers
             return View();
         }
 
+        public IActionResult Bug()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();

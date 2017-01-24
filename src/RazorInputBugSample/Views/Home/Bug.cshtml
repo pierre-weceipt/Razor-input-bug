@@ -1,0 +1,16 @@
+﻿@{
+    var ModelType = "Test";
+}
+<form id="inputContainer">
+    <input asp-for="@ModelType" />
+</form>
+<p id="displayInputHtml"></p>
+
+@section scripts {
+    <script type="text/javascript">
+        var input = $("#inputContainer").html();
+        $("#displayInputHtml").text("This is the generated code : " + input)
+
+
+    </script>
+}

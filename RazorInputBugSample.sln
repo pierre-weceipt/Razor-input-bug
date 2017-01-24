@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9E9FD5B-B86F-4666-8A8D-C1AAF857999C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1CEB9382-32CD-40EF-99EB-67DFDB3C1B6F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RazorInputBugSample", "src\RazorInputBugSample\RazorInputBugSample.xproj", "{136EA549-9061-45FE-99CA-FF01246873E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{136EA549-9061-45FE-99CA-FF01246873E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136EA549-9061-45FE-99CA-FF01246873E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136EA549-9061-45FE-99CA-FF01246873E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136EA549-9061-45FE-99CA-FF01246873E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{136EA549-9061-45FE-99CA-FF01246873E1} = {D9E9FD5B-B86F-4666-8A8D-C1AAF857999C}
+	EndGlobalSection
+EndGlobal
